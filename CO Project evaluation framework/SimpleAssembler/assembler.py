@@ -150,7 +150,7 @@ def assembler(instruction):
         binary_imm_lower = format(imm_lower, '06b')
         return binary_imm_upper, rs2, rs1, funct3_list[parts2[0]], binary_imm_lower, opcode
 
-input_file = r"C:\Users\Suvit Joshia\Downloads\CO Project evaluation framework\CO Project evaluation framework\automatedTesting\tests\assembly\simpleBin\test2.txt"
+input_file = r"CO Project evaluation framework/automatedTesting/tests/assembly/bin_s/test2.txt"
 output_file = r"output2.txt"
 
 with open(input_file, "r") as f:
